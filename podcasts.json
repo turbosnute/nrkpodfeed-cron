@@ -1,0 +1,14 @@
+[
+    {
+        "id": "trygdekontoret",
+        "title": "Trygdekontoret",
+        "season": null,
+        "enabled": true
+    },
+    {
+        "id": "filmpolitiet",
+        "title": "Filmpolitiet",
+        "season": null,
+        "enabled": true
+    }
+]
