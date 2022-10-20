@@ -10,5 +10,11 @@
         "title": "Filmpolitiet",
         "season": null,
         "enabled": true
+    },
+    {
+        "id": "hele_historien",
+        "title": "Hele Historien",
+        "season": null,
+        "enabled": true
     }
 ]
