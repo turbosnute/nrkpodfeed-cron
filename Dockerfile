@@ -7,7 +7,7 @@ RUN rm -rf nrk-pod-feeds
 RUN python3 -m pip install --no-cache-dir -r requirements.txt
 RUN rm -f /app/docs/rss/*
 
-RUN touch /etc/cron.d/crontab
+RUN echo "0 * * * * python3 /app/generate_feeds.py" > /etc/cron.d/crontab
 RUN chmod 0644 /etc/cron.d/crontab
 RUN /usr/bin/crontab /etc/cron.d/crontab
 
